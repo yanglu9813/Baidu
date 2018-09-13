@@ -1,0 +1,110 @@
+/*
+* @Author: Administrator
+* @Date:   2018-09-12 18:47:09
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-09-12 22:39:43
+*/
+input {
+	border: 0 none;/*去掉边框*/
+	outline-style: none;/*去掉轮廓线*/
+	margin: 0;
+	padding: 0;
+}
+li {
+	float: right; 
+	margin-right: 20px;
+	list-style: none;
+}
+li a {
+	font: 700 13px/24px Arial;
+	color: black;
+}
+li a:hover{
+	color: blue;
+}
+.nav{
+	height: 24px;
+}
+.img {
+	height: 129px;
+	width: 270px;
+	margin: 0px auto;
+}
+.search {
+	height: 60px;
+	width: 650px;
+	margin: 30px auto;
+}
+.code {
+	width: 74px;
+	height: 100px;
+	margin: 180px auto;
+	margin-bottom: 20px;
+}
+.code span {
+	padding-left: 25px;
+	font: 700 12px arial;
+	color: #666;
+}
+/* .footer {
+	width: 600px;
+	height: 50px;
+	margin: 0 auto;
+} */
+.footer p {
+	text-align: center;	
+	font: 700 12px arial;
+	color: #999;
+}
+.pTwo {
+	margin-top: -12px;
+}
+.footer a {
+	padding: 10px;
+	color: #999;
+}
+.footer a:hover {
+	cursor: pointer;
+}
+.more {
+	background-color: #3388FF;
+	padding: 0 5px;
+}
+.more a {	
+	color: white;
+	text-decoration: none;
+}
+.more img {
+	position: absolute;
+	left: 1260px;
+	top: 0;
+	display: none;
+}
+.text {
+	width: 540px;
+	height: 36px;
+	border: 1px solid #B8B8B8;
+	padding-left: 5px;
+	font-size: 18px;
+	float: left;
+	background: url('2.PNG') right no-repeat;
+}
+.text:hover {
+	border: 1px solid #999999;
+}
+.text:focus {
+	border: 1px solid #3385FF;
+}
+.button {
+	width: 100px;
+	height: 38px;
+	background-color: #3385FF;
+	border: 1px solid #3385FF;
+	color: white;
+	font: 700 14px Arial;
+	float: left;
+}
+.button:hover {
+	background-color: #2779F3;
+	cursor: pointer;
+}
